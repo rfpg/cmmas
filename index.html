@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hover Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Light greyish-blue background for better contrast and readability */
+            color: #333; /* Dark grey text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .button-container {
+            text-align: center;
+            width: 100%;
+        }
+        .hover-button {
+            background-color: #008cba; /* Blue background */
+            color: white; /* White text */
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .hover-button:hover {
+            background-color: #005f7a; /* Darker blue background on hover */
+            color: #ffcc00; /* Yellow text on hover for high contrast */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="hover-button">Example 1</button>
+        <button class="hover-button">Example 2</button>
+        <button class="hover-button">Example 3</button>
+        <button class="hover-button">Example 4</button>
+        <button class="hover-button">Example 5</button>
+    </div>
+</body>
+</html>
