@@ -9,10 +9,20 @@
             background-color: #f4f4f9; /* Light greyish-blue background for better contrast and readability */
             color: #333; /* Dark grey text color */
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
             height: 100vh;
             margin: 0;
+        }
+        a {
+            color: #008cba; /* Blue link color */
+            text-decoration: none; /* Remove underline */
+            font-size: 18px;
+            margin-bottom: 20px; /* Space between the link and buttons */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover for better accessibility */
         }
         .button-container {
             text-align: center;
@@ -38,10 +48,11 @@
     </style>
 </head>
 <body>
+    <a href="https://www.cmmas.com/en/copy-5-of-ideassonicas25/ideassonicas%2Fsonicideas-23">My latest research publication.</a>
     <div class="button-container">
-        <button class="hover-button">Example 1</button>
-        <button class="hover-button">Example 2</button>
-        <button class="hover-button">Example 3</button>
+        <a href="https://www.youtube.com/watch?v=qBgtdoDYLtY" class="hover-button">Example 1</a>
+        <a href="https://www.youtube.com/watch?v=6KgAULXmbzQ" class="hover-button">Example 2</a>
+        <a href="https://www.youtube.com/watch?v=MLpQm8p5oOo" class="hover-button">Example 3</a>
     </div>
 </body>
 </html>
